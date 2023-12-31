@@ -1,0 +1,21 @@
+Create a rule that changes:
+
+";" to "." - The program doesn't register the aesthetic pause of semicolons
+
+"--" to "." - The program also does (or rather doesn't) towards double-hyphen pauses.
+
+Addressing title commas to "." - The program doesn't pause for effect with introductions.
+
+"I" (self identifying pronoun) to "Eye" - the Dutch (Belgium) accent pronounces I as "ee"
+
+"is a" to "isa" - I don't like the pause inbetween
+
+when "ou" precedes the second to last ending of a word, particularly the last syllable 
+
+Changing "a" to "ay"
+
+when a word ends with "cate", change it to cait
+
+Change words ending in "ly" to "lee"
+
+Change every "this is" to "this is"
