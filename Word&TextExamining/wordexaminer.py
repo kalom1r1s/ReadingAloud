@@ -1,41 +1,44 @@
-def WordToExamine(word): 
-	def __init__():
-		this.word = word
+class WordExaminer: 
+	def __init__(self, word):
+		self.word = word
+		self.len = len(word)
 
 	
-	def show(): #returns the word initialized
+	def show(self): #returns the word initialized
 
-		return this.word 
+		return self.word 
 
-	def firstletters(arg = None): #you might as well write this to accept both no arguments
+	def firstletters(self, arg = None): #you might as well write this to accept both no arguments
 		
 		if arg == None:
 	
-			return this.word[0]
+			return self.word[0]
 
 		else:
-			numb = arg-1
 
-			return this.word[numb:]
+			return self.word[:arg]
  
 
-	def lastletters(arg = None):
+	def lastletters(self, arg = None):
 		
 		if arg == None:
-
-			length = len(this.word)-1
 		
-			return this.word[length]
+			return self.word[self.len-1]
 
 		else:
 			
 			length = arg - 1
 			
 
-			return this.word[:length]
+			return self.word[self.len-arg:self.len]
 
+#w1 = "testexaminer"
+#w2 = "yabbadabbadoo"
+#w3 = "singleline"
 
-
+#test1 = WordExaminer(w1)
+#test2 = WordExaminer(w2)
+#test3 = WordExaminer(w3)
 
 
 
